@@ -340,4 +340,3 @@ renderStatsView();
 if (params.get('tab') && tabs[params.get('tab')]) {
   switchTab(params.get('tab'));
 }
-
