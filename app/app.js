@@ -118,7 +118,7 @@ function createTrophyCard(t, isMissableHighlight = false) {
 
   const sourcesDiv = document.createElement('div');
   sourcesDiv.className = 'trophy-sources';
-  sourcesDiv.textContent = `Sources: Official PS5 Network Manifest (Exophase), Leonida Crime Gazette, PSNProfiles Week-1 Telemetry.`;
+  sourcesDiv.textContent = `CITED SOURCE: PS5 Network Manifest #${String(t.id).padStart(3, '0')} · Exophase API · PSNProfiles Telemetry`;
 
   body.append(headerLine, descP, guideDiv, sourcesDiv);
 
